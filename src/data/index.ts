@@ -6,22 +6,22 @@
     UserIcon
 } from "@heroicons/vue/24/solid";
   
-  import ProjectImg1 from "@/public/img/project1.png";
-  import ProjectImg2 from "@/public/img/project2.png";
-  import ProjectImg3 from "@/public/img/project3.png";
-  import Logo1 from "@/public/img/logo1.png";
-  import Logo2 from "@/public/img/logo2.png";
-  import Logo3 from "@/public/img/logo3.png";
-  import Avatar1 from "@/public/img/avatar1.png";
-  import Avatar2 from "@/public/img/avatar2.png";
-  import Avatar3 from "@/public/img/avatar3.png";
-  import Avatar4 from "@/public/img/avatar4.png";
-  import Laravel from "@/public/svg/laravel.svg";
-  import React from "@/public/svg/react.svg";
-  import Vue from "@/public/svg/vue-9.svg";
-  import ViteJS from "@/public/svg/vitejs.svg";
-  import Python from "@/public/svg/python.svg";
-  import Node from "@/public/svg/node.svg";
+  import ProjectImg1 from "../assets/img/project1.png";
+  import ProjectImg2 from "../assets/img/project2.png";
+  import ProjectImg3 from "../assets/img/project3.png";
+  import Logo1 from "../assets/img/logo1.png";
+  import Logo2 from "../assets/img/logo2.png";
+  import Logo3 from "../assets/img/logo3.png";
+  import Avatar1 from "../assets/img/avatar1.png";
+  import Avatar2 from "../assets/img/avatar2.png";
+  import Avatar3 from "../assets/img/avatar3.png";
+  import Avatar4 from "../assets/img/avatar4.png";
+  import Laravel from "../assets/svg/laravel.svg";
+  import React from "../assets/svg/react.svg";
+  import Vue from "../assets/svg/vue-9.svg";
+  import ViteJS from "../assets/svg/vitejs.svg";
+  import Python from "../assets/svg/python.svg";
+  import Node from "../assets/svg/node.svg";
   
   export const navItems = [
     {

@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination } from "swiper/modules";
 import { projectsItems } from "../data/index.ts";
 import ProjectsSVG from "../assets/svg/projects.svg"
+
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -31,7 +32,7 @@ import "swiper/css/pagination";
           />
           <Swiper
             :pagination="{ clickable: true }"
-            :spaceBetween={20}
+            :space-between="20"
             :modules="[Pagination]"
             class="rounded-3xl pb-16 max-w-xs shadow-lg shadow-yellow-700 self-start"
           >
