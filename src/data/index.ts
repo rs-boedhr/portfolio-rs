@@ -1,10 +1,10 @@
-import {
-    HiHome,
-    HiMiniCubeTransparent,
-    HiMiniCog,
-    HiMiniNewspaper,
-    HiMiniUserCircle,
-  } from "react-icons/hi2";
+  import {
+    HomeIcon,
+    AcademicCapIcon,
+    WrenchScrewdriverIcon,
+    DocumentIcon,
+    UserIcon
+} from "@heroicons/vue/24/solid";
   
   import ProjectImg1 from "@/public/img/project1.png";
   import ProjectImg2 from "@/public/img/project2.png";
@@ -27,27 +27,27 @@ import {
     {
       name: "Home",
       href: "#home",
-      icon: HiHome,
+      icon: HomeIcon,
     },
     {
       name: "Skills",
       href: "#skills",
-      icon: HiMiniCubeTransparent,
+      icon: AcademicCapIcon,
     },
     {
       name: "Services",
       href: "#services",
-      icon: HiMiniCog,
+      icon: WrenchScrewdriverIcon,
     },
     {
       name: "Projects",
       href: "#projects",
-      icon: HiMiniNewspaper,
+      icon: DocumentIcon,
     },
     {
       name: "Contact",
       href: "#contact",
-      icon: HiMiniUserCircle,
+      icon: UserIcon,
     },
   ];
   
